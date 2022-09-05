@@ -50,9 +50,12 @@ dependencies {
     //구글 맵 디팬던시
     implementation 'com.google.android.gms:play-services-maps:18.1.0'
     implementation 'com.google.android.gms:play-services-location:20.0.0'
-    //구글 비전 API
-    implementation platform('com.google.cloud:libraries-bom:26.0.0')
-    implementation 'com.google.cloud:google-cloud-vision'
+
+    //tess-two OCR모듈
+    implementation 'com.rmtheis:tess-two:9.1.0'
+
+    //네이버 클로바OCR API
+
 
 
     implementation 'com.github.bumptech.glide:glide:4.13.2'

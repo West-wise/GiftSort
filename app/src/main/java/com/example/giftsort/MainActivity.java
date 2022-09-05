@@ -43,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     //Google Cloude Vision API 관련
-    private static final String CLOUD_VISION_API_KEY = "AIzaSyC_U2HCHSqVMJTv0LpEVuwsjnXNnWT82-k";
-    public static final String FILE_NAME = "temp.jpg";
+    //private static final String CLOUD_VISION_API_KEY = "AIzaSyC_U2HCHSqVMJTv0LpEVuwsjnXNnWT82-k";
+    //public static final String FILE_NAME = "temp.jpg";
 
     private long backBtnTime =0;
 
@@ -163,10 +163,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     //사진 파일 가져오기
-    public File getCameraFile() {
-        File dir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
-        return new File(dir, FILE_NAME);
-    }
+
 
     /* private void callCloudVision(final Bitmap bitmap) {
         // Switch text to loading

@@ -128,7 +128,7 @@
                 tools:layout_editor_absoluteX="32dp"
                 tools:layout_editor_absoluteY="399dp" />
 
-            <EditText
+            <TextView
                 android:id="@+id/expiration_period_et"
                 android:layout_width="272dp"
                 android:layout_height="32dp"
@@ -155,7 +155,7 @@
                 tools:layout_editor_absoluteX="32dp"
                 tools:layout_editor_absoluteY="399dp" />
 
-            <EditText
+            <TextView
                 android:id="@+id/brand_name_et"
                 android:layout_width="272dp"
                 android:layout_height="32dp"
@@ -198,9 +198,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="쿠폰 가져오기"
+            android:text="쿠폰 가져오기" />
 
-            />
+        <Button
+            android:id="@+id/ocr_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:onClick="processImage"
+            android:text="인식하기" />
+
     </LinearLayout>
 
 
